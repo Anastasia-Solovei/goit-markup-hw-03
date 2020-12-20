@@ -31,6 +31,9 @@ body {
   margin-right: auto;
   outline: 2px solid salmon;
 }
+.container.team {
+  padding: 94px 15px;
+}
 
 /*------------------Шапка сайта----------------*/
 
@@ -106,6 +109,7 @@ body {
 }
 
 .button {
+  display: inline-block;
   border-radius: 4px;
   padding: 6px 22px;
 
