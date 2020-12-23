@@ -19,7 +19,13 @@ body {
 }
 
 header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -350,6 +356,10 @@ footer {
   font-style: normal;
 }
 
+.contacts-list.footer {
+  display: flex;
+  flex-direction: column;
+}
 .contacts-link.footer {
   display: inline-block;
   margin-bottom: 9px;
