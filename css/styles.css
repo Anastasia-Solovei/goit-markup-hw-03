@@ -280,9 +280,10 @@ img {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  margin-bottom: 24px;
 }
-
+.filter-items {
+  margin-bottom: 50px;
+}
 .filter-items:not(:first-child) {
   margin-left: 8px;
 }
