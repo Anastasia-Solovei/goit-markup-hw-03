@@ -277,7 +277,6 @@ header {
 .project-item {
   margin-left: 30px;
   margin-bottom: 30px;
-  padding-bottom: 20px;
   width: 370px;
   border: 1px solid #eeeeee;
 }
@@ -290,10 +289,12 @@ header {
   margin-bottom: 0;
 }
 
+.project-description {
+  padding: 20px 24px;
+}
+
 .project-title {
   margin-bottom: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
 
   font-size: 18px;
   line-height: 2;
@@ -301,9 +302,6 @@ header {
 }
 
 .project-text {
-  margin-left: 24px;
-  margin-right: 24px;
-
   color: var(--primary-text-color);
 
   font-size: 16px;
@@ -314,10 +312,6 @@ header {
   text-decoration: none;
 }
 
-.project-card {
-  display: block;
-  margin-bottom: 20px;
-}
 /*--------------- Подвал сайта ----------------------*/
 
 footer {
