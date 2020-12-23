@@ -262,6 +262,7 @@ header {
 
 .filters-list {
   display: flex;
+  align-items: flex-start;
   justify-content: center;
   margin-bottom: 24px;
 }
